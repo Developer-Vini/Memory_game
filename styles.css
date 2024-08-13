@@ -1,9 +1,16 @@
+/*isso aqui é letra que vai aparecer em cima (obvio)*/
 h1 {
+    /*isso é para definir uma fonte para o H1*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*tamanho da letra*/
     font-size: 20px;
+    
     text-align:center;
     position: fixed;
+    /*subir 20px pra cima*/
     top: 20px;
+    
+    /*cor do texto*/
     color: white;
 
 
@@ -35,14 +42,21 @@ body {
     transition: transform 0.3s;
     border-radius: 50%;
 }
+/*quando o mouse passar em cima*/
 .card:hover {
+    /*ele aumentara a escala dele ate 1.05*/
     transform: scale(1.05);
+    /*e ficara 40% mais redondo*/
     border-radius: 40%;
 }
+/*quando cartão virar*/
 .card.flipped {
+    /*ele ficara roxo*/
     background-color: purple;
 
 }
+/*se ambas cartas estiverem corretas*/
 .card.matched {
+    /*o fundo automaticamente ira ficar avermelhado ou se não vermelho*/
     background-color: #e74c3c;
 }
