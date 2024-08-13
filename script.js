@@ -1,3 +1,5 @@
+//Para adicionar mais, basta colocar mais emojis dentro da []
+//const emojis = ['🐶', '🐱', '🐭', '🐹', '🐰', '🦊','😁', '🐱‍👤', '❤', '💖'];
 const emojis = ['🐶', '🐱', '🐭', '🐹', '🐰', '🦊','😁', '🐱‍👤', '❤', '💖'];
         const gameContainer = document.getElementById('gameContainer');
         let flippedCards = [];
